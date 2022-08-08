@@ -1,6 +1,6 @@
 # This FROM is for generic container
 # The Jenkins slaves still need to originate from the Jenkins slave base image
-FROM fedora:latest
+FROM registry.fedoraproject.org/fedora:latest
 
 LABEL description="DevOps AQE markdown linter container" \
       summary="Devops AQE markdown linter container" \
